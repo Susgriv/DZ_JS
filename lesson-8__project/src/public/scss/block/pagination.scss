@@ -1,0 +1,38 @@
+.pagination {
+  height: 43px;
+  margin-bottom: 96px;
+  margin-top: 48px;
+  width: 300px;
+  @include laptop {
+    margin-bottom: 63px;
+    margin-top: 40px;
+  }
+}
+
+.pager {
+  &-item__link {
+    color: $color-text;
+    text-decoration: none;
+  }
+
+  &-current,
+  &-item {
+    display: inline-block;
+    height: 19px;
+    padding: 11px 5px;
+    text-align: center;
+    width: 10px;
+
+    &:hover,
+    &:focus{
+      background-color: rgba(200, 200, 200, 0.8);
+      border-bottom: 2px solid rgba(130, 130, 130, 1);
+    }
+  }
+}
+
+.fa-angle-left,
+.fa-angle-right {
+  color: $black-bkg;
+}
+

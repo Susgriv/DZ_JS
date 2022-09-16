@@ -1,0 +1,9 @@
+.social-icon {
+  fill: $white-color;
+  transition: all 1s ease .2s;
+
+  &__color {
+    fill: $black-bkg;
+    transition: all 1s ease .2s;
+  }
+}

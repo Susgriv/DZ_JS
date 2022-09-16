@@ -1,0 +1,63 @@
+.brand {
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  @include tables {
+    grid-template-columns: 1fr;
+  }
+
+  &__img {
+    display: block;
+    max-height: 764px;
+    width: 100%;
+    @media (max-width: $laptop-width) {
+      height: 100%;
+    }
+
+    &-wrapper {
+      background: #f4f2f3;
+      @media (max-width: $tables-width) {
+        display: none;
+      }
+    }
+  }
+
+  .brand__title {
+    border-left: 12px $pink-color solid;
+    padding-left: 16px;
+    text-transform: uppercase;
+    @include font(48px, 58px, 900);
+    @include laptop {
+      @include font(44px, 53px, 900);
+    }
+   @include tables {
+      @include font(38px, 46px, 900);
+    }
+
+    &-lower {
+      display: block;
+      @include font(32px, 38px, 700);
+      @include laptop {
+        @include font(24px, 29px, 700);
+      }
+      @include tables {
+        @include font(20px, 24px, 700);
+      }
+    }
+
+    &-wpr {
+      align-items: center;
+      background-color: $pink-bkg;
+      display: flex;
+      flex-grow: 1;
+      padding-left: 64px;
+      @include tables {
+        padding: 148px 56px 149px 53px;
+        justify-content: center;
+      }
+    }
+
+    &-pink {
+      color: $pink-color;
+    }
+  }
+}

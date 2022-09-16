@@ -1,0 +1,42 @@
+.advantages {
+  background-color: $black-bkg;
+  margin-top: 100px;
+
+  &__list {
+    display: grid;
+    grid-template: 1fr / repeat(3, 1fr);
+    gap: 30px;
+    @include tables {
+      grid-template: 1fr / repeat(1, 1fr);
+      gap: 48px;
+      padding: 48px 0 64px 0;
+      max-width: 360px;
+    }
+  }
+
+  &__item {
+    padding: 104px 0;
+    text-align: center;
+    @include tables {
+      padding: 0;
+    }
+
+    &-img {
+      min-height: 40px;
+      min-width: 40px;
+    }
+
+    &-title {
+      @include font(20px, 24px, 400);
+      color: $adventages-title;
+      padding-top: 25px;
+    }
+
+    &-text {
+      @include font(14px, 17px, 300);
+      color: $adventages-title;
+      padding-top: 16px;
+    }
+  }
+}
+

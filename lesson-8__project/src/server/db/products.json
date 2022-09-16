@@ -1,0 +1,38 @@
+[
+  {
+    "id_product": 1,
+    "product_name": "Куртка",
+    "price": 1600,
+    "img": "1.jpg"
+  },
+  {
+    "id_product": 2,
+    "product_name": "Брючный костюм",
+    "price": 3000,
+    "img": "2.jpg"
+  },
+  {
+    "id_product": 3,
+    "product_name": "Толстовка",
+    "price": 45600,
+    "img": "3.jpg"
+  },
+  {
+    "id_product": 4,
+    "product_name": "Брюки",
+    "price": 1000,
+    "img": "4.jpg"
+  },
+  {
+    "id_product": 5,
+    "product_name": "Пиджак",
+    "price": 1000,
+    "img": "5.jpg"
+  },
+  {
+    "id_product": 6,
+    "product_name": "Кофта",
+    "price": 1000,
+    "img": "6.jpg"
+  }
+]

@@ -1,0 +1,117 @@
+[
+    {
+        "time": "16 Sep 2022, 12:0509/16/2022:45 am",
+        "product_name": "Куртка",
+        "action": "remove"
+    },
+    {
+        "time": "16 Sep 2022, 12:0509/16/2022:47 am",
+        "product_name": "Брючный костюм",
+        "action": "remove"
+    },
+    {
+        "time": "16 Sep 2022, 12:0509/16/2022:48 am",
+        "product_name": "Кофта",
+        "action": "remove"
+    },
+    {
+        "time": "16 Sep 2022, 12:0509/16/2022:48 am",
+        "product_name": "Толстовка",
+        "action": "remove"
+    },
+    {
+        "time": "16 Sep 2022, 12:0509/16/2022:49 am",
+        "product_name": "Брюки",
+        "action": "remove"
+    },
+    {
+        "time": "16 Sep 2022, 12:0509/16/2022:49 am",
+        "product_name": "Пиджак",
+        "action": "remove"
+    },
+    {
+        "time": "16 Sep 2022, 12:0609/16/2022:09 am",
+        "product_name": "Куртка",
+        "action": "add"
+    },
+    {
+        "time": "16 Sep 2022, 12:0609/16/2022:09 am",
+        "product_name": "Куртка",
+        "action": "change"
+    },
+    {
+        "time": "16 Sep 2022, 12:0609/16/2022:10 am",
+        "product_name": "Брючный костюм",
+        "action": "add"
+    },
+    {
+        "time": "16 Sep 2022, 12:0609/16/2022:12 am",
+        "product_name": "Толстовка",
+        "action": "add"
+    },
+    {
+        "time": "16 Sep 2022, 12:0609/16/2022:17 am",
+        "product_name": "Брюки",
+        "action": "add"
+    },
+    {
+        "time": "16 Sep 2022, 12:0609/16/2022:17 am",
+        "product_name": "Брюки",
+        "action": "change"
+    },
+    {
+        "time": "16 Sep 2022, 12:0609/16/2022:17 am",
+        "product_name": "Брюки",
+        "action": "change"
+    },
+    {
+        "time": "16 Sep 2022, 12:0609/16/2022:19 am",
+        "product_name": "Пиджак",
+        "action": "add"
+    },
+    {
+        "time": "16 Sep 2022, 12:0609/16/2022:19 am",
+        "product_name": "Пиджак",
+        "action": "change"
+    },
+    {
+        "time": "16 Sep 2022, 12:0609/16/2022:19 am",
+        "product_name": "Пиджак",
+        "action": "change"
+    },
+    {
+        "time": "16 Sep 2022, 12:0609/16/2022:19 am",
+        "product_name": "Пиджак",
+        "action": "change"
+    },
+    {
+        "time": "16 Sep 2022, 12:0609/16/2022:20 am",
+        "product_name": "Кофта",
+        "action": "add"
+    },
+    {
+        "time": "16 Sep 2022, 12:0609/16/2022:20 am",
+        "product_name": "Кофта",
+        "action": "change"
+    },
+    {
+        "time": "16 Sep 2022, 12:0609/16/2022:20 am",
+        "product_name": "Кофта",
+        "action": "change"
+    },
+    {
+        "time": "16 Sep 2022, 12:0609/16/2022:21 am",
+        "product_name": "Кофта",
+        "action": "change"
+    },
+    {
+        "time": "16 Sep 2022, 12:0609/16/2022:21 am",
+        "product_name": "Кофта",
+        "action": "change"
+    },
+    {
+        "time": "16 Sep 2022, 12:0609/16/2022:21 am",
+        "product_name": "Кофта",
+        "action": "change"
+    }
+]
