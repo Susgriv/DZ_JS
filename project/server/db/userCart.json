@@ -1,0 +1,48 @@
+{
+    "amount": 46600,
+    "countGoods": 2,
+    "contents": [
+        {
+            "quantity": 1,
+            "id_product": 2,
+            "product_name": "Брючный костюм",
+            "price": 3000,
+            "img": "img/products/2.jpg"
+        },
+        {
+            "quantity": 3,
+            "id_product": 1,
+            "product_name": "Куртка",
+            "price": 1600,
+            "img": "img/products/1.jpg"
+        },
+        {
+            "quantity": 1,
+            "id_product": 3,
+            "product_name": "Толстовка",
+            "price": 45600,
+            "img": "img/products/3.jpg"
+        },
+        {
+            "quantity": 1,
+            "id_product": 4,
+            "product_name": "Брюки",
+            "price": 1000,
+            "img": "img/products/4.jpg"
+        },
+        {
+            "quantity": 3,
+            "id_product": 5,
+            "product_name": "Пиджак",
+            "price": 1000,
+            "img": "img/products/5.jpg"
+        },
+        {
+            "quantity": 1,
+            "id_product": 6,
+            "product_name": "Кофта",
+            "price": 1000,
+            "img": "img/products/6.jpg"
+        }
+    ]
+}

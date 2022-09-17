@@ -1,0 +1,146 @@
+.footer {
+  &__wrap {
+    background-image: url('../img/footer/footer-bkg.png');
+    background-size: cover;
+  }
+
+  &__quote {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+    @media (max-width: $tables-width) {
+      grid-template: 1fr 1fr / 1fr;
+      justify-items: center;
+    }
+
+    &-list {
+      max-width: 360px;
+      padding: 97px 0 140px 0;
+      text-align: center;
+      @media (max-width: $tables-width) {
+        padding: 54px 0 30px 0;
+      }
+    }
+
+    &-img {
+      padding-top: 10px;
+    }
+
+    &-text {
+      @include font(20px, 24px, 400, italic);
+      padding-top: 30px;
+      @media (max-width: $tables-width) {
+        @include font(18px, 22px)
+      }
+    }
+  }
+
+  //###form###//
+  .footer__form {
+    margin: 0 auto;
+    max-width: 360px;
+    padding: 97px 0 140px 0;
+    text-align: center;
+    @media (max-width: $tables-width) {
+      padding: 30px 0 39px 0;
+    }
+
+    &-title {
+      @include font(24px, 40px, 700);
+      padding-top: 65px;
+      text-transform: uppercase;
+      @media (max-width: $tables-width) {
+        @include font(24px, 37px);
+        padding: 0;
+      }
+    }
+
+    &-text {
+      @include font(18px, 24px);
+      padding-bottom: 32px;
+      text-transform: uppercase;
+      @media (max-width: $tables-width) {
+        @include font(14px, 22px)
+      }
+    }
+
+    &-email {
+      background-color: #e1e1e1;
+      border: none;
+      display: block;
+      float: left;
+      height: 37px;
+      padding: 7px 0 5px 22px;
+      width: 230px;
+      @include font(14px, 16px);
+      @include border-radius-left(100px, 100px);
+    }
+
+    &-email:hover,
+    &-email:focus {
+      background-color: $white-color;
+      transition: all .3s ease .2s;
+    }
+
+    &-button {
+      float: left;
+      height: 49px;
+      margin: 0;
+      padding: 7px;
+      text-transform: capitalize;
+      width: 100px;
+      @include font(14px, 16px);
+      @include border-radius-right(100px, 100px);
+      @include mobile {
+        width: 90px;
+      }
+    }
+  }
+
+  ///###social###///
+
+  &__wrp-social {
+    background-color: $black-bkg;
+  }
+    &__social {
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+      min-height: 79px;
+      @media (max-width: $tables-width) {
+        flex-direction: column-reverse;
+      }
+
+      &-copy {
+        color: $adventages-title;
+        @include font(16px, 20px, 400);
+        @media (max-width: $tables-width) {
+          padding: 0 0 0 9px;
+        }
+      }
+
+      &-list {
+        align-items: center;
+        display: flex;
+        gap: 7px;
+        @media (max-width: $tables-width) {
+         padding: 43px 0 40px 0;
+        }
+      }
+
+      &-link:hover &-icon,
+      &-link:focus &-icon {
+        fill: $pink-color;
+        transition: all 1s ease .2s;
+      }
+
+      &-link:hover .social-icon__color,
+      &-link:focus .social-icon__color {
+        fill: $white-color;
+      }
+
+      &-link:active &-icon,
+      &-link:focus .social-icon__color {
+        opacity: .7;
+      }
+    }
+  }
