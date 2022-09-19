@@ -1,0 +1,53 @@
+.header__nav {
+  background: $white-color;
+  box-shadow: -5px 5px 10px rgba(7, 7, 7, 0.5);
+  display: none;
+  min-height: 764px;
+  position: absolute;
+  right: 0;
+  top: 75px;
+  width: 232px;
+  z-index: 999;
+  padding: 37px 0 0 33px;
+
+  &-title {
+    @include font(14px, 17px, 700);
+    color: $black;
+    padding-bottom: 4px;
+    text-transform: uppercase;
+  }
+
+  &-close-button {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+  }
+}
+
+.header__nav:hover {
+  display: block;
+}
+
+.nav-item {
+
+  &__item {
+    @include font(14px, 17px);
+    color: #6f6e6e;
+    padding-top: 11px;
+  }
+
+  &__item_link {
+    font-size: 14px;
+    color: $color-text;
+    text-decoration: none;
+  }
+
+  &-title {
+    @include font(14px, 17px);
+    color: $pink-color;
+    text-transform: uppercase;
+    margin-top: 20px;
+  }
+}
